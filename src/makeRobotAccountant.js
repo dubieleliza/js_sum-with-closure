@@ -12,7 +12,7 @@ function makeRobotAccountant() {
       }
 
       return a + b;
-=======
+    }
   let count = 0;
 
   return function(a) {
@@ -26,6 +26,8 @@ function makeRobotAccountant() {
       }
     };
   };
+} 
+
 }
 
 module.exports = makeRobotAccountant;
